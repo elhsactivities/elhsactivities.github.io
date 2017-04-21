@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>ELHS Activities</title>
+        <link rel="icon" type="image/png" href="images/logo.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-dropdown.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
+        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' />
+        <link ref="stylesheet" type="text/css" href="styling/index.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-fixed-top" id="nav">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar color-text"></span> <span class="icon-bar color-text"></span> <span class="icon-bar color-text"></span> </button> <a href="#body" class="navbar-brand">ELHS Activities</a> </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#about" class="nav-me">About</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#forms" role="button" aria-haspopup="true" aria-expanded="false">
+                                Form <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#forms-activity-request" class="nav-me">Activity Request</a></li>
+                                <li><a href="#forms-field-trip" class="nav-me">Field Trip</a></li>
+                            </ul>
+                        <li><a href="#contact" class="nav-me">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="body">
+            <div id="header">
+                <h1>Skipper</h1>
+            </div>
+            <h3>Hi</h3>
+        </div>
+        <script>
+            $('.dropdown-toggle').dropdown()
+        </script>
+    </body>
+</html>
